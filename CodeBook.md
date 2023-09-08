@@ -38,10 +38,11 @@ See the input section for the list of files and their description.
 5) Finally the tidy data set is produced with the 
    average of each variable for each activity and each subject.
    The dplyr package was leveraged here to simplify the melting process.
-    a) This last data frame is then written to disk with the filename tidyData.txt
+    a) This last data frame is then written to disk with the 
+       file name tidyData.txt
 
-## Inputs
-For each record it is provided:
+## Inputs From the Author's ReadMe File
+### For each record it is provided:
 ======================================
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
@@ -50,7 +51,7 @@ For each record it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-The dataset includes the following files:
+### The dataset includes the following files:
 =========================================
 
 - 'README.txt'
@@ -79,14 +80,14 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-Notes: 
+### Notes: 
 ======
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
-License:
+### License:
 ========
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
