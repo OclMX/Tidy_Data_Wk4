@@ -40,6 +40,7 @@ See the input section for the list of files and their description.
    The dplyr package was leveraged here to simplify the melting process.
     a) This last data frame is then written to disk with the 
        file name tidyData.txt
+       
 
 ## Inputs From the Author's ReadMe File
 ### For each record it is provided:
@@ -50,6 +51,7 @@ See the input section for the list of files and their description.
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
+
 
 ### The dataset includes the following files:
 =========================================
@@ -80,12 +82,14 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
+
 ### Notes: 
 ======
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
+
 
 ### License:
 ========

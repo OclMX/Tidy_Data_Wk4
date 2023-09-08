@@ -1,11 +1,5 @@
 library(dplyr)
 
-# This is a simple script using base R functions to tidy up 
-# activity reporting per Week 4's assignment instructions. 
-
-# Load the data
-#
-#----------------------------------------------------------------------------------------------------------
 
 # Download the file
 fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
